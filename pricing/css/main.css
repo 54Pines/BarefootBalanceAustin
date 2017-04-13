@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+
+.description {
+    margin: 25px 0px;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 60px 0px;
+}
+
+.section-title {
+    color: lightgray;
+}
+
+.price{
+    background-color: #221e2d;
+    text-transform: uppercase;
+}
+.price ul{
+    margin-top: 40px;
+    background-color: #302c3d;
+    text-align: center;
+    color: #a39bbf;
+    padding-left: 0;
+    border: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 0;
+}
+.price .price-category:hover ul{
+    border: 1px solid #a39bbf;
+}
+.price ul li{
+    list-style-type: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(163, 155, 191, 0.2);
+    font-family: 'Oswald';
+    font-weight: 200;
+}
+.price ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 80px;
+}
+.price h4{
+    margin-bottom: 0;
+}
+.price p{
+    color: #fff;
+    text-transform: none;
+    font-family: 'Oswald';
+    font-size: 25px;
+}
+.price .btn{
+    width: 100%;
+    background-color: #3f384f;
+    padding: 15px 0;
+    border-color: transparent;
+    border-top: none;
+    color: #a39bbf;
+    font-family: 'Oswald';
+    transition: all 0.4s ease-in-out;
+}
+.price .btn:hover{
+    border-color: #a39bbf;
+    background-color: transparent;
+}
+
+/*for carousel*/
+
+.owl-theme .owl-controls .owl-buttons div {
+    background-color: transparent;
+    position: absolute;
+    font-size: 65px;
+    opacity: 1;
+    margin: 0px -70px;
+    color: #a39bbf;
+    top: 40%;
+    line-height: 40px;
+}
+
+.owl-prev {
+    left: 0;
+    font-family: "Ionicons";
+}
+
+.owl-prev:before {
+    content: "\f3cf";
+}
+
+.owl-next {
+    right: 0;
+    font-family: "Ionicons";
+}
+
+.owl-next:before {
+    content: "\f3d1";
+}
