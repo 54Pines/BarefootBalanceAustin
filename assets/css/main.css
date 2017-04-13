@@ -82,7 +82,7 @@ a.logo:hover{
     color: #e64d69;
 }
 /*=================================
-||          Navigation 
+||          Navigation
 ==================================*/
 .creative-star{
     padding: 40px;
@@ -123,9 +123,9 @@ header{
     display: table-cell;
     vertical-align: middle;
 }
-.intro .highlight:after, 
+.intro .highlight:after,
 .intro .highlight:before{
-    content: '';
+    content:'';
     height: 70px;
     width: 300px;
     border: 10px solid #fff;
@@ -142,7 +142,7 @@ header{
     border-top: 0;
 }
 .highlight{
-    margin: 0;
+    margin: 50px 250px 50px 250px;
     padding: 0;
     letter-spacing: 5px;
     position: relative;
