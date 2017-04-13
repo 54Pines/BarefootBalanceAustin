@@ -199,6 +199,12 @@ header{
 .service-bar{
     background: linear-gradient(#322d3f, #221e2d);
 }
+.right {
+    position: absolute;
+    right: -550px;
+    width: 300px;
+    padding: 10px;
+}
 /*Radial Bar Css*/
 /****************/
 .wrap {
