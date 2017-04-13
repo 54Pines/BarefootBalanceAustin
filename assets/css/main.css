@@ -127,10 +127,10 @@ header{
 .intro .highlight:before{
     content:'';
     height: 70px;
-    width: 300px;
+    width: 525px;
     border: 10px solid #fff;
     position: absolute;
-    left: calc(50% - 150px);
+    left: calc(50% - 265px);
     opacity: 0.5;
 }
 .intro .highlight:after{
@@ -142,8 +142,8 @@ header{
     border-top: 0;
 }
 .highlight{
-    margin: 50px 250px 50px 250px;
-    padding: 0;
+    margin: 100px 50px;
+    padding: 0px 100px 0px 100px;
     letter-spacing: 5px;
     position: relative;
 }
