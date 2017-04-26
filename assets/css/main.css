@@ -142,11 +142,13 @@ header{
     border-top: 0;
 }
 .highlight{
-    margin: 100px 50px;
-    padding: 0px 100px 0px 100px;
+    display: block;
+    margin: 0 auto;
+    padding: auto;
     letter-spacing: 5px;
     position: relative;
 }
+
 
 /*Service*/
 /*********/
@@ -200,7 +202,8 @@ header{
     background: linear-gradient(#322d3f, #221e2d);
 }
 .alena{
-  position: relative; 
+  position: relative;
+
 }
 /*Radial Bar Css*/
 /****************/
@@ -777,6 +780,11 @@ input[type="email"]{
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #fff;
+}
+.quote-logo{
+  position: relative;
+  display: block;
+  margin: 0 auto;
 }
 .breadcrumb>.active{
     color: inherit;
