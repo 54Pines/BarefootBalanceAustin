@@ -103,6 +103,9 @@ a.logo:hover{
     background-color: #2a2538;
     transition: all 0.4s ease-in-out;
 }
+.wordlogo{
+    max-width: 250px;
+}
 
 /*Header Section*/
 /****************/
