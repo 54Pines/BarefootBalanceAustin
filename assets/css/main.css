@@ -154,8 +154,8 @@ header{
 /*********/
 .service{
     background-color: #221e2d;
-    padding-bottom: 125px;
-    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-top: 0px;
 }
 .service-title{
     border-top: 1px solid #342e45;
@@ -689,8 +689,8 @@ section.cta{
     border: 1px solid rgba(163, 155, 191, 0.5);
 }
 .testimonial-content{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .img-logo{
     background: #fff;
@@ -705,7 +705,7 @@ section.cta{
 }
 .testimonial .item{
     margin-left: 50px;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 .test-name{
     font-size: 20px;
